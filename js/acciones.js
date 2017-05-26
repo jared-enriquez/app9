@@ -35,7 +35,7 @@ function getPosition(){
 		'Altitude Accuracy:' + position.coords.altitudeAccuracy +'\n'+
 		'Heading:' + position.coords.heading +'\n'+
 		'Speed:' + position.coords.speed +'\n'+
-		'Timestamp:' + position.coords.timestamp +'\n');
+		'Timestamp:' + position.timestamp +'\n');
 	};
 	
 	function onError(error) {
